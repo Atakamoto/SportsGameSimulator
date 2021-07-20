@@ -5,6 +5,6 @@ public void setup()
 {
   a.improveBy(0); //changes normal chances of scoring(optimized to basketball so 10% chance of 3, 40% chance of 2, etc; positive number will increase percent chance of all, neg num will do opposite)
   b.improveBy(0);
-  Season one = new Season(82, "noDelay","noTies");
+  Season one = new Season(82, "noDelay","noTies"); //(Games in season, 3 settings: normal, fast, noDelay;, 3 settings: normal, noTies, playoffs(ends when one team wins more than half of games in season, also has noTies))
   one.runSeason();
 }
